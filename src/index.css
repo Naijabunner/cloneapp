@@ -1,10 +1,71 @@
 body{
     padding: 0%;
     margin: 0%;
-    background-color: black;
-    width: 100vw;
+    background-color: rgb(255, 255, 255);
 }
 .head{
-    background-color: bisque;
+    position: relative;
     display: flex;
+    min-width: fit-content;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(189, 186, 186);
 }
+.ul_head{
+    display: flex;
+    align-items: center;
+}
+.ul_head li{
+    display: inline-block;
+    
+}
+.search_input{
+    width: 20rem;
+    border: none;
+    outline: none;
+}
+#search_btn{
+    color: rgb(36, 163, 227);
+}
+.input_bar{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    border-radius: 50px;
+    align-items: center;
+    width: 25rem;
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px rgb(162, 159, 159);
+}
+.google_logo{
+    margin-right :2rem;
+}
+.setting_grid-profile{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right :10rem;
+  
+}
+.setting{
+    margin: 0px 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #494646;
+}
+.profile{
+    margin: 0px 20px;
+    border: 2px dashed rgb(40, 39, 39);
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+/* 
+
+
+
+
+ */
