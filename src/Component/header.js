@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGear, faGrip } from '@fortawesome/free-solid-svg-icons'
+////import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+////import { faGear, faGrip } from '@fortawesome/free-solid-svg-icons'
 
 export const Header =()=>{
     return(
@@ -19,8 +19,8 @@ export const Header =()=>{
                 </li>
             </ul>
             <div className="setting_grid-profile">
-                        <FontAwesomeIcon icon={faGear} className='setting'/>
-                        <FontAwesomeIcon icon={faGrip} className='setting'/>
+                       /////// <FontAwesomeIcon icon={faGear} className='setting'/>
+                        //////<FontAwesomeIcon icon={faGrip} className='setting'/>
                         <img src="./images/dog.jpg" alt="40px" width="40px" className='profile'/>
             </div>   
         </div>
