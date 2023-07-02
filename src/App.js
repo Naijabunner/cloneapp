@@ -36,7 +36,7 @@ export const App = () => {
       }
       fetchApi();
     }
-  }, [search]);
+  }, [search,searchValue.valueInput, api]);
   const revealResult = apidata.map((allapiData) => {
     return (
         <Result 
