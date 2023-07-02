@@ -5,7 +5,7 @@ export const Header =(props)=>{
             <ul className='ul_head'>
                 <li>
                     <img src="./images/glogo.png
-                    " alt="" width="100px"  className= 'google_logo'/>
+                    " alt="" width="100px"  className= 'google_logo' onClick={props.onclicktwo}/>
                 </li>
                 <li>
                     <div className="input_bar">
