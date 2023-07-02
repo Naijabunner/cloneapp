@@ -28,6 +28,9 @@ body{
 #search_btn{
     color: rgb(36, 163, 227);
 }
+#setting{
+    padding:0 5px;
+}
 .input_bar{
     display: flex;
     justify-content: space-between;
@@ -47,21 +50,103 @@ body{
     width: 100px;
     justify-content: space-between;
     align-items: center;
-    padding-right :10rem;
-  
+    padding-right :5rem;
 }
-i{
+i {
     margin: 0px 15px;
     font-size: 20px;
     font-weight: lighter;
-    color: #494646;
+    color: #3d3a3a;
 }
 .profile{
-    margin: 0px 20px;
-    border: 2px dashed rgb(40, 39, 39);
-    height: 50px;
+    margin: 0px 5px;
+    border: none;
+    height: 40px;
+    width: 40px;
     border-radius: 50px;
     font-size: 30px;
+    border:1px solid black ;
+}
+.rsult_container{
+    width: 70%; 
+    padding: 10px;
+    font-family: sans-serif;   
+}
+.tittle_container{
+    margin: 0;
+    line-height: 2px;
+}
+.tittle_container a{
+    text-decoration: none;
+}
+.tittle_container p{
+    margin-left: 1%;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    color: #9b9e9c;
+    font-style: italic;
+    line-height: 2px;
+}
+h1{
+    font-size: 2vw;
+    padding: 0;
+}
+span{
+    font-weight: lighter;
+    font-size: 2vw;
+    color: rgb(31, 81, 130);
+    padding:10px 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+aside{
+    padding: 0%;
+    font-size: 1vw;
+    font-weight: bold;
+    color: rgb(151, 147, 147);
+    padding:3px 20px 0px;
+}
+.all_result{
+    padding: 5px;
+    border: 1px solid rgb(191, 189, 189);
+}
+@media screen and (max-width:800px) {
+    .search_input{
+        width: 10rem;
+    }
+    #search_btn{
+        margin: 0px;
+    }
+    .input_bar{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: larger;
+        border-radius: 50px;
+        align-items: center;
+        width: 18rem;
+        padding: 5px 5px;
+
+    }
+    .google_logo{
+        margin-right :1rem;
+    }
+    .setting_grid-profile{
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+        align-items: center;
+        padding-right :5rem;
+    }
+    i {
+        margin: 0px 5px;
+        font-size: 20px;
+        font-weight: lighter;
+        color: #3d3a3a;
+    }
+    .profile{
+        margin: 0px 2px;
+        border:1px solid black ;
+    }   
+
 }
 /* 
 
