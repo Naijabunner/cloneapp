@@ -1,7 +1,15 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
 body{
     padding: 0%;
     margin: 0%;
     background-color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 5vmin;
 }
  .head{
     display: flex;
@@ -17,6 +25,7 @@ background-size: cover;
 background-repeat: no-repeat;
 } 
 .input_bar{
+    position: relative;
     display: grid;
     grid-template-columns: 70vmin auto;
     justify-content: space-between;
@@ -25,7 +34,9 @@ background-repeat: no-repeat;
     max-width: 60vmin;
     min-width: fit-content;
     height: 3rem;
+    min-height: 4.7vmin;
     border-radius: 5px;
+
 
 }
 button{
@@ -33,6 +44,7 @@ button{
     margin: 0;
 }
 .input_bar input{
+    background: none;
     max-width: 90%;
     min-width: fit-content;
     font-size: 4vmin;
@@ -52,6 +64,7 @@ button{
     max-width: 50vmin;
     min-width: fit-content;
     color: white;
+    cursor: pointer;
 }
 .img_wrapper{
     display: flex;
@@ -60,6 +73,36 @@ button{
 }
 .noSearch{
     width: 40vh;
+}
+
+
+.all_result{
+    max-width: 100%;
+    position: relative;
+    background-color: rgb(225, 224, 224);
+    margin:  1em;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(108, 108, 113);
+}
+.all_result p{
+    margin: 0.2em;
+}
+.tittle_container  a{
+    color: black;
+}
+.tittle_container  a :nth-child(1){
+    font-weight: 800;
+    font-size: larger;
+}
+.all_result h2{
+    margin: 0.2em 0.5em;
+}
+.all_result aside{
+    margin: 0.2em 0.5em;
+}
+.all_result a{
+    text-decoration: none;
 }
 /* .head{
     position: relative;

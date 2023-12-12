@@ -60,9 +60,7 @@ export const App = () => {
       <div className="img_wrapper">
       <img className="noSearch" src={img} alt="person-with-magnifying-glass" />
 
-      </div>}
-
-      
+      </div>}       
       
     </>
   );
