@@ -5,14 +5,14 @@ export const Result= (props)=>{
     <div className="result_fitting">
         <div className="tittle_container">
             <a href={props.link} target="_blank" rel="noreferrer">
-                <h1>
+                <p>
                    {props.displayLink}
-                </h1>
+                </p>
                 <p>{props.formattedUrl}</p> 
             </a>  
         </div>
         <a href={props.link} target="_blank" rel="noreferrer">
-            <span>{props.title}</span>
+            <h2>{props.title}</h2>
         </a>
     </div>
     <aside>

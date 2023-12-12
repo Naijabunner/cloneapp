@@ -3,7 +3,65 @@ body{
     margin: 0%;
     background-color: rgb(255, 255, 255);
 }
-.head{
+ .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+width: 100%;
+background-image: url("./Images/seascape-texture-waves-water-generative-ai.jpg");
+background-position: center;
+background-attachment: local;
+background-size: cover;
+background-repeat: no-repeat;
+} 
+.input_bar{
+    display: grid;
+    grid-template-columns: 70vmin auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 60vmin;
+    min-width: fit-content;
+    height: 3rem;
+    border-radius: 5px;
+
+}
+button{
+    border: none;
+    margin: 0;
+}
+.input_bar input{
+    max-width: 90%;
+    min-width: fit-content;
+    font-size: 4vmin;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+.search_icon{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(86, 158, 252);
+    font-size: 3vmin;
+    padding:0  1.5rem;
+    height: 3rem;
+    max-width: 50vmin;
+    min-width: fit-content;
+    color: white;
+}
+.img_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noSearch{
+    width: 40vh;
+}
+/* .head{
     position: relative;
     display: flex;
     min-width: fit-content;
@@ -108,8 +166,8 @@ aside{
 .all_result{
     padding: 5px;
     border: 1px solid rgb(191, 189, 189);
-}
-@media screen and (max-width:800px) {
+} */
+/* @media screen and (max-width:00px) {
     .search_input{
         width: 10rem;
     }
@@ -153,4 +211,4 @@ aside{
 
 
 
- */
+ */ 
