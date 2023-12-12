@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import { Header } from "./Component/header";
 import { Result } from "./Component/result";
-import img from "./Images/person-with-magnifying-glass.jpg"
+import img from "./Images/nosearch.jpg"
 import "./index.css";
 export const App = () => {
   const [searchValue, setsearchValue] = useState({
@@ -58,7 +58,7 @@ export const App = () => {
       />
       {apidata.length > 0 ? revealResult:
       <div className="img_wrapper">
-      <img  className="noSearch" src={img} alt="person-with-magnifying-glass" />
+      <img className="noSearch" src={img} alt="person-with-magnifying-glass" />
 
       </div>}
 
