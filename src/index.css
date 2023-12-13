@@ -78,6 +78,7 @@ button{
 
 .all_result{
     max-width: 100%;
+    min-width: fit-content;
     position: relative;
     background-color: rgb(225, 224, 224);
     margin:  1em;
@@ -94,6 +95,9 @@ button{
 .tittle_container  a :nth-child(1){
     font-weight: 800;
     font-size: larger;
+}
+.tittle_container  a :nth-child(2){
+    font-size: 1vw;
 }
 .all_result h2{
     margin: 0.2em 0.5em;
