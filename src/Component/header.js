@@ -3,7 +3,7 @@ export const Header =(props)=>{
     return(
         <div className="head">
             <h1>
-                SEARCH IT
+                SEARCH 🔍🚀
             </h1>
             <form onSubmit={props.onclick} className="input_bar">
                         <input type="text" className='search_input'onChange={props.onchange} placeholder="Type in something..."/>

@@ -11,7 +11,7 @@ export const Result= (props)=>{
                 <p>{props.formattedUrl}</p> 
             </a>  
         </div>
-        <a href={props.link} target="_blank" rel="noreferrer">
+        <a href={props.link} target="_blank" rel="noreferrer" className="titleanchor">
             <h2>{props.title}</h2>
         </a>
     </div>

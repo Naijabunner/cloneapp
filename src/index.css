@@ -3,8 +3,7 @@ body{
     padding: 0%;
     margin: 0%;
     background-color: rgb(255, 255, 255);
-    font-family: 'Playfair Display', serif;
-
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1{
     color: rgb(0, 0, 0);
@@ -18,11 +17,8 @@ h1{
     flex-direction: column;
     height: 50vh;
 width: 100%;
-background-image: url("./Images/seahome.jpg");
-background-position: center;
-background-attachment: local;
-background-size: cover;
-background-repeat: no-repeat;
+background: rgb(11,166,172);
+background: linear-gradient(90deg, rgba(11,166,172,1) 20%, rgba(9,21,121,1) 63%, rgba(0,212,255,1) 82%);
 } 
 .input_bar{
     position: relative;
@@ -75,16 +71,23 @@ button{
     width: 40vh;
 }
 
-
+.result_wrapper{
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60rem;
+    gap: 0.5em;
+    padding: 0% 0.5em;
+    margin: auto;
+}
 .all_result{
-    max-width: 100%;
-    min-width: fit-content;
     position: relative;
-    background-color: rgb(225, 224, 224);
-    margin:  1em;
-    padding: 0.5rem;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgb(108, 108, 113);
+    padding: 0rem;
+    overflow: hidden;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 .all_result p{
     margin: 0.2em;
@@ -97,10 +100,12 @@ button{
     font-size: larger;
 }
 .tittle_container  a :nth-child(2){
-    font-size: 1vw;
+    font-size: clamp(1rem,1vw,1rem);
+
 }
 .all_result h2{
-    margin: 0.2em 0.5em;
+    margin: 0.2em 0.2em;
+    font-size: clamp(1rem,2vw,2rem);
 }
 .all_result aside{
     margin: 0.2em 0.5em;

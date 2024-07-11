@@ -56,11 +56,14 @@ export const App = () => {
         onclick={handlesubmitbtn}
         onclicktwo={refreshPage}
       />
+      <div className="result_wrapper">
       {apidata.length > 0 ? revealResult:
       <div className="img_wrapper">
       <img className="noSearch" src={img} alt="person-with-magnifying-glass" />
 
-      </div>}       
+      </div>}  
+      </div>
+      
       
     </>
   );
